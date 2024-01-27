@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(120deg, #3bffc4d8, #ff0e0eda); */
+    align-items: center;
+    justify-content: center;
+    animation-name: colors;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+} @keyframes colors {
+        0% { background: linear-gradient(120deg, #3bffc4d8, #ff0e0eda);}
+        25% { background: linear-gradient(135deg, #ff3b3bd8, #79b902da);}
+        50% { background: linear-gradient(190deg, #208806d8, #6a0effda);}
+        75% { background: linear-gradient(135deg, #c13bffd8, #1104c7da);}
+        100% { background: linear-gradient(120deg, #10c991d8, #ff9f0eda);}
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5) ;
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px, 5px, 15px, rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 12px;
+}
+
+.data {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 500px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px -8px 10px rgba(0, 0, 0, .5) ;
+}
+
+.data div {
+    padding: 2rem;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px, 5px, 15px, rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
