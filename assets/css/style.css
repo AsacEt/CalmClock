@@ -8,18 +8,9 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* background: linear-gradient(120deg, #3bffc4d8, #ff0e0eda); */
+    background: linear-gradient(120deg, #ffd13bd8, #ff0e0eda);
     align-items: center;
     justify-content: center;
-    animation-name: colors;
-    animation-duration: 60s;
-    animation-iteration-count: infinite;
-} @keyframes colors {
-        0% { background: linear-gradient(120deg, #3bffc4d8, #ff0e0eda);}
-        25% { background: linear-gradient(135deg, #ff3b3bd8, #79b902da);}
-        50% { background: linear-gradient(190deg, #208806d8, #6a0effda);}
-        75% { background: linear-gradient(135deg, #c13bffd8, #1104c7da);}
-        100% { background: linear-gradient(120deg, #10c991d8, #ff9f0eda);}
 }
 
 .relogio {
